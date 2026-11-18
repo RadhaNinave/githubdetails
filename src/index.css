@@ -1,0 +1,84 @@
+body {
+  background-color: #f5f6fa;
+}
+
+.finder-card {
+  max-width: 620px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.title {
+  font-weight: 800;
+  color: #111827;
+}
+
+.search-input {
+  background-color: #3a3a3a;
+  color: #fff;
+  border: 1px solid #3a3a3a;
+}
+
+.search-input::placeholder {
+  color: #9ca3af;
+}
+
+.search-input:focus {
+  background-color: #3a3a3a;
+  color: #fff;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.25);
+}
+
+.btn-search {
+  background-color: #2563eb;
+  border-color: #2563eb;
+  font-weight: 600;
+}
+
+.empty-text {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.error-box {
+  background-color: #fee2e2;
+  color: #991b1b;
+  border-radius: 8px;
+  padding: 0.6rem;
+  font-size: 0.85rem;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #e5e7eb;
+}
+
+.login {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.stat {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.8rem;
+}
+
+.stat span {
+  color: #6b7280;
+  margin-left: 0.3rem;
+}
+
+.meta {
+  font-size: 0.8rem;
+  color: #374151;
+}
+
+.meta a {
+  color: #1d4ed8;
+}
